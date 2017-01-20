@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1484897337635
+Bnd-LastModified: 1484901935065
 Build-Jdk: 1.8.0_92
 Built-By: abhig
 Bundle-Description: Bundles for Integration Tests for AEM-Solr-Integrati

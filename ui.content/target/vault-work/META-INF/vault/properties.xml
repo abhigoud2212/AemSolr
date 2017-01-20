@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM-Solr-Integration - UI content</comment>
+<entry key="createdBy">abhig</entry>
+<entry key="name">AemSolr.ui.content</entry>
+<entry key="created">2017-01-20T03:45:34.243-0500</entry>
+<entry key="groupId">org.myorg</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">AEM-Solr-Integration Content Package</entry>
+<entry key="description">UI content package for AEM-Solr-Integration</entry>
+<entry key="artifactId">AemSolr.ui.content</entry>
+<entry key="path">/etc/packages/AEM-Solr-Integration Content Package/AemSolr.ui.content.zip</entry>
+</properties>

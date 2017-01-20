@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="samp" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <samp jcr:primaryType="cq:Widget" title="samp">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <text allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./text" xtype="textarea"/>
+          </items>
+        </samp>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>
