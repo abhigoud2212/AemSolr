@@ -3,5 +3,6 @@ org\myorg\AemSolr\core\listeners\SimpleResourceListener.class
 org\myorg\AemSolr\core\package-info.class
 org\myorg\AemSolr\core\servlets\SimpleServlet.class
 org\myorg\AemSolr\core\schedulers\SimpleScheduledTask.class
+org\myorg\AemSolr\common\ConnUtils.class
 org\myorg\AemSolr\core\models\HelloWorldModel.class
 org\myorg\AemSolr\core\Sample.class

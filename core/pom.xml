@@ -32,10 +32,19 @@
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
+						<Import-Package>
+						</Import-Package>
+						<Export-Package>
+						</Export-Package>
 						<!-- <Embed-Dependency> artifactId1, artifactId2;inline=true </Embed-Dependency> -->
 						<Sling-Model-Packages>
-							org.myorg.AemSolr.core
+							org.myorg.AemSolr.core,
+							org.myorg.AemSolr.common
 						</Sling-Model-Packages>
+						<Embed-Directory>OSGI-INF/lib</Embed-Directory>
+						<Embed-Transitive>false</Embed-Transitive>
+						<_exportcontents>
+						</_exportcontents>
 					</instructions>
 				</configuration>
 			</plugin>
@@ -124,6 +133,11 @@
 		<dependency>
 			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
 			<artifactId>cq-component-annotations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.myorg</groupId>
+			<artifactId>SolrJarBundles</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
