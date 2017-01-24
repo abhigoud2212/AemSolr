@@ -134,6 +134,7 @@
 			<groupId>com.citytechinc.cq.cq-component-plugin</groupId>
 			<artifactId>cq-component-annotations</artifactId>
 		</dependency>
+		<!-- SolrJ Bundle -->
 		<dependency>
 			<groupId>org.myorg</groupId>
 			<artifactId>SolrJarBundles</artifactId>

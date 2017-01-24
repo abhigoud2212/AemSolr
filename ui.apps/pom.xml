@@ -110,6 +110,11 @@
 							<artifactId>AemSolr.core</artifactId>
 							<target>/apps/aemsolrintegration/install</target>
 						</embedded>
+						<embedded>
+							<groupId>org.myorg</groupId>
+							<artifactId>SolrJarBundles</artifactId>
+							<target>/apps/aemsolrintegration/install</target>
+						</embedded>
 					</embeddeds>
 				</configuration>
 			</plugin>
@@ -188,6 +193,12 @@
 		<dependency>
 			<groupId>org.myorg</groupId>
 			<artifactId>AemSolr.core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.myorg</groupId>
+			<artifactId>SolrJarBundles</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

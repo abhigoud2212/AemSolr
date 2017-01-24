@@ -4,7 +4,7 @@
 <comment>AEM-Solr-Integration - UI content</comment>
 <entry key="createdBy">abhig</entry>
 <entry key="name">AemSolr.ui.content</entry>
-<entry key="created">2017-01-24T13:02:37.480-0500</entry>
+<entry key="created">2017-01-24T13:17:40.655-0500</entry>
 <entry key="groupId">org.myorg</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="requiresRoot">false</entry>
